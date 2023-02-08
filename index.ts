@@ -3,7 +3,7 @@ interface Greeting {
 }
 
 class HelloGreeting implements Greeting {
-    message = "Hello!";
+    message = "Hello! Is this working?";
 }
 
 function greet(greeting: Greeting) {
